@@ -88,7 +88,7 @@ fn main() {
         let tx = tx.clone();
 
         thread::spawn(move || {
-            scan(tx, i, arguments.ipaddr, num_thread);
+            scan(tx, i, _addr, num_thread);
         });
     }
 
