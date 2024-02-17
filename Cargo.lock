@@ -1487,6 +1487,10 @@ dependencies = [
 [[package]]
 name = "vector_sorting"
 version = "0.1.0"
+dependencies = [
+ "rand",
+ "rand_distr",
+]
 
 [[package]]
 name = "version_check"
