@@ -1,8 +1,10 @@
 [workspace]
 resolver = "2"
-members = [ "CLI_Tools/arg_passing",
+members = [ "CLI_Tools/ansi_terminal", "CLI_Tools/arg_passing",
     "algorithms/random_values",
-    "algorithms/vector_sorting",
+    "algorithms/vector_sorting", 
+    "compression/tarball_compress", 
+    "compression/tarball_decompress",
     "projects/ip_sniffer", 
     "projects/snake_game"
 ]
@@ -12,4 +14,15 @@ rand = "0.8.5"
 rand_distr = "0.4.3"
 piston_window = "*"
 clap = "4.5.1"
-ansi_term = "0.21.7"
+ansi_term = "0.12.1"
+flate2 = "1.0.28"
+tar = "0.4.40"
+crossbeam = "0.8.4"
+lazy_static = "1.4.0"
+threadpool = "1.8.1"
+walkdir = "2.4.0"
+num_cpus = "1.16.0"
+ring = "0.17.8"
+rayon = "1.8.1"
+image = "0.24.8"
+glob = "0.3.1"
