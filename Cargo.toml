@@ -4,7 +4,7 @@ members = [ "CLI_Tools/ansi_terminal", "CLI_Tools/arg_passing",
     "algorithms/random_values",
     "algorithms/vector_sorting", 
     "compression/tarball_compress", 
-    "compression/tarball_decompress", "concurrency/threads",
+    "compression/tarball_decompress", "concurrency/threads", "cryptography/hashing",
     "projects/ip_sniffer", 
     "projects/snake_game"
 ]
@@ -26,3 +26,5 @@ ring = "0.17.8"
 rayon = "1.8.1"
 image = "0.24.8"
 glob = "0.3.1"
+data-encoding = "2.5.0"
+
