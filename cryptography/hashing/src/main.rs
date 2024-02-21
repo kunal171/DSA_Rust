@@ -1,4 +1,3 @@
-use error_chain::error_chain;
 use data_encoding::HEXUPPER;
 use ring::digest::{Context, Digest, SHA256};
 use std::fmt::Error;
@@ -21,7 +20,7 @@ fn sha256_digest<R: Read>(mut reader: R) -> Result<Digest, Error> {
     Ok(context.finish())
 }
 
-fn main() -> Result<()> {
+fn main() -> Result<(),  std::io::Error> {
     let path = "file.txt";
 
     let mut output = File::create(path)?;

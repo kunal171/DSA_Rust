@@ -707,6 +707,7 @@ name = "hashing"
 version = "0.1.0"
 dependencies = [
  "data-encoding",
+ "ring",
 ]
 
 [[package]]
