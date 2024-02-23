@@ -4,7 +4,7 @@ members = [ "CLI_Tools/ansi_terminal", "CLI_Tools/arg_passing",
     "algorithms/random_values",
     "algorithms/vector_sorting", 
     "compression/tarball_compress", 
-    "compression/tarball_decompress", "concurrency/threads", "cryptography/hashing",
+    "compression/tarball_decompress", "concurrency/threads", "cryptography/encryption", "cryptography/hashing",
     "projects/ip_sniffer", 
     "projects/snake_game"
 ]
