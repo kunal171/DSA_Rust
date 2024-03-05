@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "CLI_Tools/ansi_terminal", "CLI_Tools/arg_passing",
+members = [ "CLI_Tools/ansi_terminal", "CLI_Tools/arg_passing", "Database/postgres", "Database/sqlite",
     "algorithms/random_values",
     "algorithms/vector_sorting", 
     "compression/tarball_compress", 
