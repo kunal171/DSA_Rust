@@ -28,4 +28,5 @@ image = "0.24.8"
 glob = "0.3.1"
 data-encoding = "2.5.0"
 bitflags = "2.4.2"
-
+rusqlite = "0.31.0"
+postgres = "0.19.7"
